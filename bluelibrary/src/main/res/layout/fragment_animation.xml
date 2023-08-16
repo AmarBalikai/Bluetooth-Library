@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <com.skyfishjy.library.RippleBackground
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/content"
+       app:rb_color="@color/colorPrimary"
+       app:rb_radius="34dp"
+       app:rb_rippleAmount="4"
+       app:rb_duration="3000"
+       app:rb_scale="6"
+       >
+       <ImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_centerInParent="true"
+           android:id="@+id/image"
+           android:src="@drawable/bluetooth_icon"
+           />
+   </com.skyfishjy.library.RippleBackground>
+</RelativeLayout>
