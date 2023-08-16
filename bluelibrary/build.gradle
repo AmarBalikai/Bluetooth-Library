@@ -48,9 +48,10 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
+
                 groupId = 'com.github.AmarBalikai'
                 artifactId = 'bluetooth_library'
-                version = '0.1.2'
+                version = '0.1.3'
             }
         }
     }
