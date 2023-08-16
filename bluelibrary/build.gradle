@@ -21,11 +21,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = '11'
+        jvmTarget = '17'
     }
 }
 
@@ -51,7 +51,7 @@ afterEvaluate {
 
                 groupId = 'com.github.AmarBalikai'
                 artifactId = 'bluetooth_library'
-                version = '0.1.4'
+                version = '0.1.6'
             }
         }
     }
